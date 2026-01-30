@@ -18,9 +18,13 @@
 从 [Termux GitHub](https://github.com/termux/termux-app/releases) 下载最新版
 
 ### 第二步：运行安装命令
+bash
+
 curl -sL https://github.com/chengzhi610/Minecraft-Chunker-For-Android-install/releases/download/v1.0.0/Minecraft-Chunker-For-Android-install.sh | bash
 
 ### 第三步：运行转换脚本
+bash
+
 ./chunker-convert.sh
 
 
