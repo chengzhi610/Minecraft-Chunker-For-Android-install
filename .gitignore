@@ -1,0 +1,95 @@
+# ====================================
+# Minecraft安卓转换工具专用 .gitignore
+# ====================================
+
+# 🗂️ 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 💾 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~*
+
+# 📁 目录
+temp/
+tmp/
+backup/
+logs/
+build/
+dist/
+
+# 🔧 开发工具
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# 📊 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🎮 你的项目特殊忽略
+# -----------------------
+# 忽略转换工具JAR文件（由脚本下载）
+chunker-cli-*.jar
+
+# 忽略用户转换的输出目录
+converted_worlds/
+converted/
+
+# 忽略备份的存档文件
+*.mcworld
+*.zip
+*.7z
+*.rar
+
+# 忽略Termux缓存
+.cache/
+termux/
+
+# 🐍 其他语言通用忽略
+# （虽然你用不到，但放着无害）
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pyvenv.cfg
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# 最终：一行注释
+# 本文件已优化，适合Minecraft安卓转换工具项目
+
