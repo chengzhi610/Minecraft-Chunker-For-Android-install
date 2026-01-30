@@ -22,6 +22,10 @@
 
 curl -sL https://github.com/chengzhi610/Minecraft-Chunker-For-Android-install/releases/download/v1.0.0/Minecraft-Chunker-For-Android-install.sh | bash
 ```
+如出现以下输出：
+curl: option -sL https://github.com/chengzhi610/Minecraft-Chunker-For-Android-install/releases/download/v1.0.0/Minecraft-Chunker-For-Android-install.sh : is unknown
+curl: try 'curl --help' or 'curl --manual' for more information
+请手动输入命令，不要复制粘贴
 
 ### 第三步：运行转换脚本
 ```bash
